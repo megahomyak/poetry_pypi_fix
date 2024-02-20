@@ -1,0 +1,7 @@
+This repository exists as a reminder for me of what to do when faced with "Could not find a matching version of package" with Poetry. Dropping caches works. Here's how to do it:
+
+> poetry cache clear --all .
+
+or, maybe,
+
+> poetry cache clear --all PyPI
